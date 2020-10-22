@@ -1,9 +1,9 @@
 puts "Введите число 1:"
-a = gets.chomp.to_i
+a = gets.chomp.to_f
 puts "Введите число 2:"
-b = gets.chomp.to_i
+b = gets.chomp.to_f
 puts "Введите число 3:"
-c = gets.chomp.to_i
+c = gets.chomp.to_f
 
 disc = (b**2 - 4 * a * c)
 

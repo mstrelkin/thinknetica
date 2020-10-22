@@ -1,7 +1,7 @@
 puts "Введите основание треугильника :"
-a = gets.chomp.to_i
+a = gets.chomp.to_f
 puts "Введите высоту треугильника:"
-h = gets.chomp.to_i
+h = gets.chomp.to_f
 
 
 s = (a * h) / 2

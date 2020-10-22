@@ -1,23 +1,16 @@
-puts "Введите 1ую сторону треугольника:"
-a = gets.chomp.to_i
-puts "Введите 2ую сторону треугильника:"
-b = gets.chomp.to_i
-puts "Введите 3ую сторону треугильника:"
-c = gets.chomp.to_i
+mas = []
 
-if a > b && a > c
-	hypotenuse = a
-	side1 = b
-	side2 = c
-elsif b > a && b > c
-	hypotenuse = b
-	side1 = a
-	side2 = c
-else
-	hypotenuse = c
-	side1 = a
-	side2 = b
-end
+puts "Введите 1ую сторону треугольника:"
+mas << gets.chomp.to_f
+puts "Введите 2ую сторону треугильника:"
+mas << gets.chomp.to_f
+puts "Введите 3ую сторону треугильника:"
+mas << gets.chomp.to_f
+
+hypotenuse = mas.max
+side1 = mas.min
+mas.sort
+side2 = mas[1]
 
 if hypotenuse**2 == (side1**2 + side2**2)
 	puts "Треугольник прямоугольный."	
