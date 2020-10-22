@@ -18,3 +18,4 @@ elsif disc == 0
 else
 	puts "Дискриминант равен #{disc}, корней нет."
 end
+123

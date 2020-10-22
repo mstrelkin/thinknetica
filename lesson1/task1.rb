@@ -10,3 +10,4 @@ if ideal_height >= 0
 else
 	puts "Ваш вес уже оптимальный."
 end
+123
