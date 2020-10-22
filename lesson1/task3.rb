@@ -21,4 +21,3 @@ if side1 == side2 && side1 == hypotenuse
 elsif side1 == side2 || side1 == hypotenuse || hypotenuse == side2
 	puts "Треугольник равнобедренный."
 end
-123
