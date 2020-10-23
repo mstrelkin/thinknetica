@@ -8,13 +8,13 @@ c = gets.chomp.to_f
 disc = (b**2 - 4 * a * c)
 
 if disc > 0
-	c = Math.sqrt(disc)
-	puts "Дискриминант равен #{disc}"
-	puts "Корень 1 равен #{ (-b + c) / (2 * a)}"
-	puts "Корень 2 равен #{ (-b - c) / (2 * a)}"
+  c = Math.sqrt(disc)
+  puts "Дискриминант равен #{disc}"
+  puts "Корень 1 равен #{ (-b + c) / (2 * a)}"
+  puts "Корень 2 равен #{ (-b - c) / (2 * a)}"
 elsif disc == 0
-	puts "Дискриминант равен #{disc}"
-	puts "Корень равен #{-b / (2 * a)}"
+  puts "Дискриминант равен #{disc}"
+  puts "Корень равен #{-b / (2 * a)}"
 else
-	puts "Дискриминант равен #{disc}, корней нет."
+  puts "Дискриминант равен #{disc}, корней нет."
 end
