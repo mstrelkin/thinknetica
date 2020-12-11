@@ -1,7 +1,7 @@
 hash = {}
 sum = 0
 
-loop do 
+loop do
 	print "Введите товар: "
 	item = gets.chomp
  	break if item == "стоп"
@@ -16,8 +16,8 @@ puts hash
 puts "Итоговая стоимость каждого товара:"
 
 hash.each do |name, data|
-	puts "#{name} = #{data.values[0] * data.values[1]}"
-	sum += data.values[0] * data.values[1]
+	puts "#{name} = #{data[:cash] * data[:count]}"
+	sum += data[:cash] * data[:count]
 end
 
 puts "Общая стоимость всех товаров = #{sum}"

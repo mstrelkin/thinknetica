@@ -1,9 +1,9 @@
 movies = {
-  Memento: 3,
+  'Memento Mory': 3,
   Primer: 4,
   Ishtar: 1
 }
-
+puts movies
 puts "What would you like to do?"
 puts "-- Type 'add' to add a movie."
 puts "-- Type 'update' to update a movie."
