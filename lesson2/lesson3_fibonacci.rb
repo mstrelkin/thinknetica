@@ -1,6 +1,6 @@
-array = [0,1]
+array = [0, 1]
 
-loop do 
+loop do
   fib = array[-1] + array[-2]
   break if fib > 100
 	array << fib
