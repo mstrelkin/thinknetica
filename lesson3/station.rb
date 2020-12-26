@@ -23,8 +23,4 @@ class Station
     end
   end
 
-  def train_on_station
-    @trains
-  end
-
 end
